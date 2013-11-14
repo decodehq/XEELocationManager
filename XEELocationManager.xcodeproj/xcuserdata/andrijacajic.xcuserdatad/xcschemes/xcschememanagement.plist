@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>XEELocationManager Documentation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>XEELocationManager.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>A7A1028318351F7A00E95513</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A7A102A01835215A00E95513</key>
 		<dict>
 			<key>primary</key>
 			<true/>

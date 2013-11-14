@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		A7A102A01835215A00E95513 /* XEELocationManagerDocumentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A7A102A11835215A00E95513 /* Build configuration list for PBXAggregateTarget "XEELocationManagerDocumentation" */;
+			buildPhases = (
+				A7A102A41835216200E95513 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = XEELocationManagerDocumentation;
+			productName = "XEELocationManager Documentation";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		A7A1026718351F7900E95513 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A1026618351F7900E95513 /* Foundation.framework */; };
 		A7A1026918351F7900E95513 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A1026818351F7900E95513 /* CoreGraphics.framework */; };
@@ -13,14 +27,15 @@
 		A7A1027118351F7900E95513 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7A1026F18351F7900E95513 /* InfoPlist.strings */; };
 		A7A1027318351F7900E95513 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A1027218351F7900E95513 /* main.m */; };
 		A7A1027718351F7900E95513 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A1027618351F7900E95513 /* AppDelegate.m */; };
-		A7A1027A18351F7900E95513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A1027818351F7900E95513 /* Main.storyboard */; };
-		A7A1027D18351F7900E95513 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A1027C18351F7900E95513 /* ViewController.m */; };
 		A7A1027F18351F7900E95513 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A1027E18351F7900E95513 /* Images.xcassets */; };
 		A7A1028618351F7A00E95513 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A1028518351F7A00E95513 /* XCTest.framework */; };
 		A7A1028718351F7A00E95513 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A1026618351F7900E95513 /* Foundation.framework */; };
 		A7A1028818351F7A00E95513 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A1026A18351F7900E95513 /* UIKit.framework */; };
 		A7A1029018351F7A00E95513 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7A1028E18351F7A00E95513 /* InfoPlist.strings */; };
 		A7A1029218351F7A00E95513 /* XEELocationManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A1029118351F7A00E95513 /* XEELocationManagerTests.m */; };
+		A7A1029F1835212600E95513 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A1029E1835212600E95513 /* ViewController.m */; };
+		A7A102A81835218900E95513 /* readme.markdown in Resources */ = {isa = PBXBuildFile; fileRef = A7A102A71835218800E95513 /* readme.markdown */; };
+		A7A102AB1835221900E95513 /* XEELocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A102AA1835221900E95513 /* XEELocationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +59,17 @@
 		A7A1027418351F7900E95513 /* XEELocationManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XEELocationManager-Prefix.pch"; sourceTree = "<group>"; };
 		A7A1027518351F7900E95513 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7A1027618351F7900E95513 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A7A1027918351F7900E95513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A7A1027B18351F7900E95513 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A7A1027C18351F7900E95513 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A7A1027E18351F7900E95513 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A7A1028418351F7A00E95513 /* XEELocationManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XEELocationManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A1028518351F7A00E95513 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A7A1028D18351F7A00E95513 /* XEELocationManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XEELocationManagerTests-Info.plist"; sourceTree = "<group>"; };
 		A7A1028F18351F7A00E95513 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A7A1029118351F7A00E95513 /* XEELocationManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XEELocationManagerTests.m; sourceTree = "<group>"; };
+		A7A1029D1835212600E95513 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7A1029E1835212600E95513 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7A102A71835218800E95513 /* readme.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.markdown; sourceTree = "<group>"; };
+		A7A102A91835221900E95513 /* XEELocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEELocationManager.h; sourceTree = "<group>"; };
+		A7A102AA1835221900E95513 /* XEELocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XEELocationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +129,11 @@
 		A7A1026C18351F7900E95513 /* XEELocationManager */ = {
 			isa = PBXGroup;
 			children = (
+				A7A1029B1835211300E95513 /* Controllers */,
+				A7A1029C1835211300E95513 /* Utilities */,
+				A7A102A51835217C00E95513 /* Documentation */,
 				A7A1027518351F7900E95513 /* AppDelegate.h */,
 				A7A1027618351F7900E95513 /* AppDelegate.m */,
-				A7A1027818351F7900E95513 /* Main.storyboard */,
-				A7A1027B18351F7900E95513 /* ViewController.h */,
-				A7A1027C18351F7900E95513 /* ViewController.m */,
 				A7A1027E18351F7900E95513 /* Images.xcassets */,
 				A7A1026D18351F7900E95513 /* Supporting Files */,
 			);
@@ -150,6 +167,40 @@
 				A7A1028E18351F7A00E95513 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7A1029B1835211300E95513 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7A1029D1835212600E95513 /* ViewController.h */,
+				A7A1029E1835212600E95513 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A7A1029C1835211300E95513 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A7A102A91835221900E95513 /* XEELocationManager.h */,
+				A7A102AA1835221900E95513 /* XEELocationManager.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A7A102A51835217C00E95513 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				A7A102A61835217C00E95513 /* Images */,
+				A7A102A71835218800E95513 /* readme.markdown */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		A7A102A61835217C00E95513 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +270,7 @@
 			targets = (
 				A7A1026218351F7900E95513 /* XEELocationManager */,
 				A7A1028318351F7A00E95513 /* XEELocationManagerTests */,
+				A7A102A01835215A00E95513 /* XEELocationManagerDocumentation */,
 			);
 		};
 /* End PBXProject section */
@@ -229,8 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7A1027F18351F7900E95513 /* Images.xcassets in Resources */,
+				A7A102A81835218900E95513 /* readme.markdown in Resources */,
 				A7A1027118351F7900E95513 /* InfoPlist.strings in Resources */,
-				A7A1027A18351F7900E95513 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,12 +296,29 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A7A102A41835216200E95513 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/appledoc \\\n--project-name ${PRODUCT_NAME} \\\n--project-company \"XEE Tech\" \\\n--company-id com.xeetech \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--search-undocumented-doc \\\n--include \"${PROJECT_DIR}/${PROJECT_NAME}/Documentation/Images\" \\\n--index-desc \"${PROJECT_DIR}/${PROJECT_NAME}/Documentation/readme.markdown\" \\\n--create-html \\\n--exit-threshold 2 \\\n--ignore .m \\\n--output \"AppleDoc\" .";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A7A1025F18351F7900E95513 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7A1027D18351F7900E95513 /* ViewController.m in Sources */,
+				A7A102AB1835221900E95513 /* XEELocationManager.m in Sources */,
+				A7A1029F1835212600E95513 /* ViewController.m in Sources */,
 				A7A1027718351F7900E95513 /* AppDelegate.m in Sources */,
 				A7A1027318351F7900E95513 /* main.m in Sources */,
 			);
@@ -280,14 +349,6 @@
 				A7A1027018351F7900E95513 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A7A1027818351F7900E95513 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A7A1027918351F7900E95513 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		A7A1028E18351F7A00E95513 /* InfoPlist.strings */ = {
@@ -334,7 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -367,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -381,6 +442,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XEELocationManager/XEELocationManager-Prefix.pch";
 				INFOPLIST_FILE = "XEELocationManager/XEELocationManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +456,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XEELocationManager/XEELocationManager-Prefix.pch";
 				INFOPLIST_FILE = "XEELocationManager/XEELocationManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -441,6 +504,22 @@
 			};
 			name = Release;
 		};
+		A7A102A21835215A00E95513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7A102A31835215A00E95513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -466,6 +545,14 @@
 			buildConfigurations = (
 				A7A1029918351F7A00E95513 /* Debug */,
 				A7A1029A18351F7A00E95513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7A102A11835215A00E95513 /* Build configuration list for PBXAggregateTarget "XEELocationManagerDocumentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A102A21835215A00E95513 /* Debug */,
+				A7A102A31835215A00E95513 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

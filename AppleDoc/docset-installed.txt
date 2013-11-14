@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/andrijacajic/Library/Developer/Shared/Documentation/DocSets/com.xeetech.XEELocationManagerDocumentation.docset
+Time: 2013-11-14 15:22:27 +0000
