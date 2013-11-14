@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A7A102A01835215A00E95513"
-               BuildableName = "XEELocationManager Documentation"
+               BuildableName = "XEELocationManagerDocumentation"
                BlueprintName = "XEELocationManagerDocumentation"
                ReferencedContainer = "container:XEELocationManager.xcodeproj">
             </BuildableReference>
