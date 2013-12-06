@@ -10,6 +10,8 @@ Usage
 
 ```objc
 
-
+[[XEELocationManager sharedManager] fetchCurrentLocation:^(CLLocation *location) {
+  NSLog(@"%@", location);
+} refresh:YES];
 
 ```
